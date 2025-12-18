@@ -1,14 +1,13 @@
 // src/components/layout/Footer.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Github, Linkedin, Mail, ArrowUp } from 'lucide-react';
+import { Heart, Github, Mail, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
     { icon: Github, href: "https://github.com/muhsiniliyas", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
     { icon: Mail, href: "mailto:muhsiniliyas03@gmail.com", label: "Email" }
   ];
 
