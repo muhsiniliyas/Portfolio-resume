@@ -94,7 +94,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.02 }}
               >
                 <Mail className="w-4 h-4 mr-2" />
-                muhsiniliyas03@email.com
+                muhsiniliyas03@gmail.com
               </motion.a>
             </div>
           </div>
