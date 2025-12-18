@@ -1,7 +1,7 @@
 // src/components/sections/Home.jsx - WORKING VERSION (No 3D Dependencies)
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, Download, Mail, Github, Linkedin, Play } from 'lucide-react';
+import { ChevronDown, Download, Mail, Github, Play } from 'lucide-react';
 import Scene3D from '../3d/Scene3D';
 const Home = () => {
   const textVariants = {
@@ -19,7 +19,6 @@ const Home = () => {
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/muhsiniliyas", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
     { icon: Mail, href: "mailto:muhsiniliyas03@gmail.com", label: "Email" }
   ];
 
